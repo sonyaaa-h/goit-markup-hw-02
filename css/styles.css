@@ -18,6 +18,7 @@ a {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #4d5ae5;
 }
 
@@ -29,14 +30,30 @@ a {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #2e2f42;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
+}
+
+.header-contacts {
+  font-style: normal;
 }
 
 .contacts-list {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #434455;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #404bbf;
 }
 
 .hero {
@@ -46,7 +63,9 @@ a {
 .hero-title {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
   color: #fff;
 }
 
@@ -57,7 +76,12 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  cursor: pointer;
   color: #fff;
+}
+
+.hero-btn:hover .hero-btn:focus {
+  background: #404bbf;
 }
 
 .benefits-list {
@@ -68,6 +92,7 @@ a {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
@@ -78,17 +103,30 @@ a {
   color: #434455;
 }
 
+.team {
+  background: #f4f4fd;
+}
+
 .team-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
   color: #2e2f42;
+}
+
+.team-item {
+  color: #ffffff;
 }
 
 .team-subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
@@ -96,6 +134,7 @@ a {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 
@@ -103,6 +142,9 @@ a {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 
@@ -110,6 +152,7 @@ a {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
@@ -117,6 +160,7 @@ a {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #434455;
 }
 
@@ -132,5 +176,6 @@ a {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: #f4f4fd;
 }
